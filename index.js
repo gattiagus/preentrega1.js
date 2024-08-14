@@ -46,7 +46,7 @@ fechaCompra = prompt("Ingrese fecha de su compra");
 
 while (true) {
     const producto = prompt("Seleccione un producto: " + Object.keys(productos).join(", ") + " o C para cerrar");
-    if (producto === "C") 
+    if (producto === "C")
         break;
     const cantidad = parseInt(prompt("Ingrese la cantidad de su producto"));
     if (isNaN(cantidad) || cantidad <= 0) {
